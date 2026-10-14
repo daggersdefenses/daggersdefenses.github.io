@@ -12,6 +12,7 @@ header{display:flex;align-items:center;justify-content:space-between;gap:12px;pa
 .brand{display:flex;align-items:center;gap:8px;text-decoration:none;font-family:'Lilita One',serif;font-size:1.15rem}.logo{width:30px;height:30px}
 .lang{font-weight:900;text-decoration:none;border:2px solid var(--border);border-radius:10px;padding:4px 10px;white-space:nowrap}
 nav{display:flex;gap:6px;overflow-x:auto;padding:8px 16px;background:var(--deep);scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav a:first-child{margin-left:auto}nav a:last-child{margin-right:auto}
 nav a{flex:none;text-decoration:none;color:var(--muted);font-weight:800;padding:6px 12px;border-radius:999px;background:var(--panel)}nav a.on{background:var(--gold);color:var(--ink)}
 main{max-width:1120px;margin:0 auto;padding:8px 16px 40px}footer{text-align:center;color:var(--muted);font-size:.85rem;padding:20px 16px;border-top:2px solid var(--panel)}
 .lead{font-size:1.1rem;flex:1;min-width:260px;margin:0}.hero-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap}.tomtom{width:120px;height:auto}
